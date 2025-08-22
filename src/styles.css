@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+/* fancy gradient bg helpers */
+.gradient-text {
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #34d399);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card {
+  @apply bg-slate-900/50 border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all;
+}
+
+.card-hover {
+  @apply hover:-translate-y-1 hover:shadow-glow;
+}
