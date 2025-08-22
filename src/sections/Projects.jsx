@@ -33,8 +33,8 @@ export default function Projects() {
                                         key={t}
                                         className="text-xs px-2 py-1 rounded-full border border-slate-700 text-slate-300"
                                     >
-                    {t}
-                  </span>))}
+                                        {t}
+                                    </span>))}
                             </div>
                             <div className="mt-4">
                                 <a

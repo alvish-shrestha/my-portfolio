@@ -15,7 +15,7 @@ export default function Hero() {
           <p className="text-sm text-slate-400">Kathmandu, Nepal</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
             Hi, I’m <span className="gradient-text">Alvish Shrestha</span><br />
-              Aspiring Software Developer
+            Aspiring Software Developer
           </h1>
           <p className="text-slate-300">
             Final‑year Software Engineering undergraduate passionate about building modern web & mobile apps with React, Node.js, MongoDB and Flutter.
